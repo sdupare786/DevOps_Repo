@@ -1,7 +1,7 @@
 import boto3
 
 # Create an EC2 client
-ec2 = boto3.resource('ec2', region_name='us-east-1')  # Change region if needed
+ec2 = boto3.resource('ec2', region_name='ap-south-1')  # Change region if needed
 
 # Launch EC2 instance
 instance = ec2.create_instances(
